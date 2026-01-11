@@ -12,17 +12,20 @@
     
     <header>
     <ul>    
-        <li>Contact</li>
-        <li>Projects</li>
-        <li>About me</li>
-        <li>Home</li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">About me</a></li>
+        <li><a href="#">Home</a></li>
     </ul>
 
     <div class="title">
     <h1>Catherine Walker</h1>
     <h4>Software and Data Specialist</h4>
+    <div class="contact-details">
+    <a class="contact-details email" href="mailto:catherinewalker008@gmail.com">catherinewalker008@gmail.com</a>
+    <a class="contact-details tel" href="tel:07505761375">07505761375</a>
     </div>
-
+    </div>
 
     </header>
 
@@ -30,8 +33,9 @@
 
     <div class="about">
         <img class="avatar" src="./images/profile-image.JPG" alt="Profile Image" width="100px">
-        <p class="about-text">I am a <strong>software developer </strong>and <strong>data scientist </strong>dedicated to using tech for good. With experience in the charity and environmental 
-        sectors, I use my skills in coding and data to work for <strong>people </strong>and the <strong>planet</strong>. </p>
+        <p class="about-text">I am a <strong>software developer </strong>and <strong>data scientist </strong>dedicated to 
+            using tech for good. With experience in the charity, education and environmental 
+        sectors, I use my skills in coding and data for <strong>people </strong>and the <strong>planet</strong>. </p>
     </div>
 
     <div class="projects">
@@ -39,16 +43,17 @@
 
         <hr>
 
-    <div id="project1">
+    <div class="project-example" id="project1">
         <img src="./images/projectdemo-1.jpeg" width="250px">
-        <h3>Education Platform</h3>
+        <h3><a href="#">Education Platform</a></h3>
         <p>For educators to organise and plan lessons, set and mark work, 
             this platforms saves admin time and improves education accessibility.</p>
     </div>
     
-    <div id="project2">
+    <div class="project-example" id="project2">
         <img src="./images/projectdemo-2.jpeg" width="250px">
-        <h3>Environmental Monitoring Software</h3>
+        <h3><a href="#">Environmental Monitoring Software</a>
+        </h3>
         <p>Collect field data whilst on the ground, and analyse it in the office. 
             This software creates a streamlined data flow for environmental professionals.</p>
     </div>
@@ -56,14 +61,26 @@
     </div>
 
     <div class="contact">
-        <h3>Contact</h3>
+        <h2>Contact</h2>
         <hr>
+        <br>
+        <form action="">
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname"><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname"><br>
+            <label for="email">Email:</label>
+            <input type="text" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea name="message" style="width:80%; height:100px;"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
     </div>
-    
+    <br>
     </main>
 
     <footer>
-         <p>Copyright</p>
+         <p class="copyright">&#169 Catherine Walker 2025</p>
     </footer>
 
 </body>

@@ -3,19 +3,27 @@
 }
 
 ul{
-    
    list-style-type: none;
    overflow: hidden;
    background-color: #005792;
    border-radius: 20px;
 }
 
-ul li {
+ul li a{
     float: right;
     display: block;
     color: white;
     text-align: center;
     padding: 5px 12px;
+    text-decoration: none;
+}
+
+ul li :hover {
+  background-color: #003272;
+}
+
+ul li {
+    float:right;
 }
 
 .title{
@@ -32,6 +40,24 @@ ul li {
     border-radius: 20%;
 }
 
+.contact-details{
+    text-decoration: none;
+    color:  #003272;
+    font-size: 12px;
+    background-color:#eeeeee;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+}
+
+.tel{
+    padding: 0px 0px 0px 50px;
+}
+
+.contact-details:hover{
+    text-decoration: none;
+    color: #005792;
+}
+
 body{
     margin: auto;
     width: 50%;
@@ -44,7 +70,6 @@ body{
     padding-bottom: 10px;
     margin-top: 30px;
 }
-
 
 .avatar{
     float: left;
@@ -63,7 +88,16 @@ body{
     display: inline-block;
 }
 
-.projects h2{
+.project-example a{
+   text-decoration: none;
+   color: #003272;
+}
+
+.project-example a:hover{
+   color: #005792;
+}
+
+h2{
     color: #003272;
     margin-bottom: 5px;
 }
@@ -71,7 +105,6 @@ body{
 .projects hr{
     margin-bottom: 20px;
 }
-
 
 #project1{
     float: left; 
@@ -87,5 +120,14 @@ body{
     font-size: 15px;
 }
 
+form{
+    background-color: rgb(45, 131, 131);
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    color:azure;
+}
 
+.copyright{
+    font-size: 10px;
+}
 

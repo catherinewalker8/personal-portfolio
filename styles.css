@@ -2,11 +2,19 @@
     font-family: Arial, Helvetica, sans-serif ;
 }
 
+header{
+    position:sticky;
+    top:0;
+}
+
+
 ul{
    list-style-type: none;
    overflow: hidden;
    background-color: #005792;
    border-radius: 20px;
+   position:sticky;
+   top:0;
 }
 
 ul li a{
@@ -28,12 +36,12 @@ ul li {
 
 .title{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: italic;
 }
 
 .title h1{
     color:  #003272;
     margin-bottom: -20px;
+    font-style: italic;
 }
 
 .title h3{
@@ -55,7 +63,7 @@ ul li {
 
 .contact-details:hover{
     text-decoration: none;
-    color: #005792;
+    color: #3587be;
 }
 
 body{
@@ -67,8 +75,10 @@ body{
     background-color: #DBD56E;
     border-radius: 20px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
     margin-top: 30px;
+    overflow:hidden;
 }
 
 .avatar{
@@ -81,7 +91,6 @@ body{
     display: inline-block;
     width: 70%;
     margin-left: 20px;
-    font-size: 15px;
 }
 
 .projects{
@@ -94,7 +103,7 @@ body{
 }
 
 .project-example a:hover{
-   color: #005792;
+   color: #3587be;
 }
 
 h2{
@@ -109,14 +118,15 @@ h2{
 #project1{
     float: left; 
     width: 100%; 
-    max-width: 50%; 
+    max-width: 45%; 
     font-size: 15px;
+    margin-right: 50px;
 } 
 
 #project2{
     display: inline-block; 
     width: 100%; 
-    max-width: 50%; 
+    max-width: 45%; 
     font-size: 15px;
 }
 
@@ -125,7 +135,31 @@ form{
     border-radius: 20px;
     padding: 10px 10px 10px 10px;
     color:azure;
+    max-width: 600px;
 }
+
+
+input, textarea{
+    width:50%;
+    margin-bottom: 5px;
+}
+
+.contact{
+    text-align: center;
+}
+
+.submit{
+    background-color:#DBD56E;
+    border:none;
+    border-radius: 20px;
+    padding: 5px 0px 5px 0px;
+}
+
+.submit:hover{
+    background-color: #003272;
+    color:white;
+}
+
 
 .copyright{
     font-size: 10px;
